@@ -1,17 +1,3439 @@
 {
-  "generatedAt": "2026-11-22T05:40:10.060107+00:00",
+  "supplyReconstruction": {
+    "schemaVersion": 1,
+    "mint": "FpECzw6x8RG4VBXfnVg3UJd8pq9CCxJUSWCKb4gebq8B",
+    "decimals": 6,
+    "method": "fixed-mint-minus-recorded-burns",
+    "quality": "recorded-history-only",
+    "historicalSnapshots": false,
+    "historyCompletenessProven": false,
+    "initialMint": {
+      "signature": "PUtxDZfV1PHk1DFEF8UVDeiU8hXS4m45Lxi48uA7n8MQhPCHM8HPP2sH5uCxxvbDgEyvMqmnwj1q4jtA7i3GmHf",
+      "slot": 304932757,
+      "blockTime": 1733135988,
+      "rawSupply": "100000000000000000",
+      "timingBasis": "saved finalized signature in research/mint-details.json"
+    },
+    "unknownTimeEventIds": [],
+    "points": [
+      {
+        "blockTime": 1733135988,
+        "rawSupply": "100000000000000000",
+        "cumulativeRecordedBurnedRaw": "0",
+        "sourceEventCount": 0,
+        "basis": "initial-mint"
+      },
+      {
+        "blockTime": 1733263651,
+        "rawSupply": "99999999999843611",
+        "cumulativeRecordedBurnedRaw": "156389",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1733920874,
+        "rawSupply": "99999999941461683",
+        "cumulativeRecordedBurnedRaw": "58538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1733927668,
+        "rawSupply": "97000222164461683",
+        "cumulativeRecordedBurnedRaw": "2999777835538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1733965245,
+        "rawSupply": "96777999942461683",
+        "cumulativeRecordedBurnedRaw": "3222000057538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1733975937,
+        "rawSupply": "96000222165461683",
+        "cumulativeRecordedBurnedRaw": "3999777834538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734004413,
+        "rawSupply": "93777999943461683",
+        "cumulativeRecordedBurnedRaw": "6222000056538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734005058,
+        "rawSupply": "91555777721461683",
+        "cumulativeRecordedBurnedRaw": "8444222278538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734064465,
+        "rawSupply": "90777999944461683",
+        "cumulativeRecordedBurnedRaw": "9222000055538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734082223,
+        "rawSupply": "87778222167461683",
+        "cumulativeRecordedBurnedRaw": "12221777832538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734173364,
+        "rawSupply": "86555999945461683",
+        "cumulativeRecordedBurnedRaw": "13444000054538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734235543,
+        "rawSupply": "85333777723461683",
+        "cumulativeRecordedBurnedRaw": "14666222276538317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734236563,
+        "rawSupply": "85333777723461682",
+        "cumulativeRecordedBurnedRaw": "14666222276538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734348800,
+        "rawSupply": "85111555501461682",
+        "cumulativeRecordedBurnedRaw": "14888444498538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734421860,
+        "rawSupply": "84889333278461682",
+        "cumulativeRecordedBurnedRaw": "15110666721538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734428071,
+        "rawSupply": "84667111056461682",
+        "cumulativeRecordedBurnedRaw": "15332888943538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734504574,
+        "rawSupply": "84444888833461682",
+        "cumulativeRecordedBurnedRaw": "15555111166538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734513792,
+        "rawSupply": "84222666611461682",
+        "cumulativeRecordedBurnedRaw": "15777333388538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734590552,
+        "rawSupply": "83444888834461682",
+        "cumulativeRecordedBurnedRaw": "16555111165538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734625268,
+        "rawSupply": "83222666612461682",
+        "cumulativeRecordedBurnedRaw": "16777333387538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734684781,
+        "rawSupply": "83000444390461682",
+        "cumulativeRecordedBurnedRaw": "16999555609538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734746363,
+        "rawSupply": "82778222168461682",
+        "cumulativeRecordedBurnedRaw": "17221777831538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734762606,
+        "rawSupply": "82555999946461682",
+        "cumulativeRecordedBurnedRaw": "17444000053538318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734815181,
+        "rawSupply": "82555999941580176",
+        "cumulativeRecordedBurnedRaw": "17444000058419824",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734866580,
+        "rawSupply": "81444888830580176",
+        "cumulativeRecordedBurnedRaw": "18555111169419824",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734867884,
+        "rawSupply": "79222666608580176",
+        "cumulativeRecordedBurnedRaw": "20777333391419824",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734870076,
+        "rawSupply": "75889333275580176",
+        "cumulativeRecordedBurnedRaw": "24110666724419824",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734871471,
+        "rawSupply": "71444888831580176",
+        "cumulativeRecordedBurnedRaw": "28555111168419824",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734872493,
+        "rawSupply": "60333777720580176",
+        "cumulativeRecordedBurnedRaw": "39666222279419824",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734888170,
+        "rawSupply": "60333777501066162",
+        "cumulativeRecordedBurnedRaw": "39666222498933838",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1734924669,
+        "rawSupply": "59333777501066162",
+        "cumulativeRecordedBurnedRaw": "40666222498933838",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735039641,
+        "rawSupply": "59333777284688257",
+        "cumulativeRecordedBurnedRaw": "40666222715311743",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735042110,
+        "rawSupply": "59333777220416948",
+        "cumulativeRecordedBurnedRaw": "40666222779583052",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735104103,
+        "rawSupply": "58555999443416948",
+        "cumulativeRecordedBurnedRaw": "41444000556583052",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735108924,
+        "rawSupply": "57778221666416948",
+        "cumulativeRecordedBurnedRaw": "42221778333583052",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735561363,
+        "rawSupply": "57778221666346901",
+        "cumulativeRecordedBurnedRaw": "42221778333653099",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735651328,
+        "rawSupply": "57384019266346901",
+        "cumulativeRecordedBurnedRaw": "42615980733653099",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735679329,
+        "rawSupply": "57384019252053139",
+        "cumulativeRecordedBurnedRaw": "42615980747946861",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735693649,
+        "rawSupply": "57384019231444857",
+        "cumulativeRecordedBurnedRaw": "42615980768555143",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735708948,
+        "rawSupply": "56919077206444857",
+        "cumulativeRecordedBurnedRaw": "43080922793555143",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1735911196,
+        "rawSupply": "56919077206442857",
+        "cumulativeRecordedBurnedRaw": "43080922793557143",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736173173,
+        "rawSupply": "56919077199215874",
+        "cumulativeRecordedBurnedRaw": "43080922800784126",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736242519,
+        "rawSupply": "56141299422215874",
+        "cumulativeRecordedBurnedRaw": "43858700577784126",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736269268,
+        "rawSupply": "56141299414393883",
+        "cumulativeRecordedBurnedRaw": "43858700585606117",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736282703,
+        "rawSupply": "56141299412345483",
+        "cumulativeRecordedBurnedRaw": "43858700587654517",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736397313,
+        "rawSupply": "55696854968345483",
+        "cumulativeRecordedBurnedRaw": "44303145031654517",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736404903,
+        "rawSupply": "55696854968345478",
+        "cumulativeRecordedBurnedRaw": "44303145031654522",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736421419,
+        "rawSupply": "55696854968345476",
+        "cumulativeRecordedBurnedRaw": "44303145031654524",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736476439,
+        "rawSupply": "55696854959669269",
+        "cumulativeRecordedBurnedRaw": "44303145040330731",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736546567,
+        "rawSupply": "55696854959669268",
+        "cumulativeRecordedBurnedRaw": "44303145040330732",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736586007,
+        "rawSupply": "55585743848669268",
+        "cumulativeRecordedBurnedRaw": "44414256151330732",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736658802,
+        "rawSupply": "55585743848669265",
+        "cumulativeRecordedBurnedRaw": "44414256151330735",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736661479,
+        "rawSupply": "55585743848669263",
+        "cumulativeRecordedBurnedRaw": "44414256151330737",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736673480,
+        "rawSupply": "55585743848669256",
+        "cumulativeRecordedBurnedRaw": "44414256151330744",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736690579,
+        "rawSupply": "55585743846696190",
+        "cumulativeRecordedBurnedRaw": "44414256153303810",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1736918004,
+        "rawSupply": "55585743839686276",
+        "cumulativeRecordedBurnedRaw": "44414256160313724",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737034290,
+        "rawSupply": "55585743830519957",
+        "cumulativeRecordedBurnedRaw": "44414256169480043",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737165235,
+        "rawSupply": "55585743828191803",
+        "cumulativeRecordedBurnedRaw": "44414256171808197",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737183015,
+        "rawSupply": "55585743828191798",
+        "cumulativeRecordedBurnedRaw": "44414256171808202",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737185512,
+        "rawSupply": "55585743828191797",
+        "cumulativeRecordedBurnedRaw": "44414256171808203",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737191124,
+        "rawSupply": "55585743828191793",
+        "cumulativeRecordedBurnedRaw": "44414256171808207",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737342347,
+        "rawSupply": "55585743797121475",
+        "cumulativeRecordedBurnedRaw": "44414256202878525",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737345876,
+        "rawSupply": "55585743797121471",
+        "cumulativeRecordedBurnedRaw": "44414256202878529",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737346395,
+        "rawSupply": "55585743797121469",
+        "cumulativeRecordedBurnedRaw": "44414256202878531",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737471272,
+        "rawSupply": "55585743794791686",
+        "cumulativeRecordedBurnedRaw": "44414256205208314",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737473484,
+        "rawSupply": "55585743791538018",
+        "cumulativeRecordedBurnedRaw": "44414256208461982",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737484764,
+        "rawSupply": "55585743791538009",
+        "cumulativeRecordedBurnedRaw": "44414256208461991",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737550895,
+        "rawSupply": "55585743281031662",
+        "cumulativeRecordedBurnedRaw": "44414256718968338",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737598578,
+        "rawSupply": "55585743281031657",
+        "cumulativeRecordedBurnedRaw": "44414256718968343",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737605217,
+        "rawSupply": "55585743281031652",
+        "cumulativeRecordedBurnedRaw": "44414256718968348",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737697486,
+        "rawSupply": "55585743281031644",
+        "cumulativeRecordedBurnedRaw": "44414256718968356",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737703922,
+        "rawSupply": "55585743265052041",
+        "cumulativeRecordedBurnedRaw": "44414256734947959",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737734607,
+        "rawSupply": "55585743265052034",
+        "cumulativeRecordedBurnedRaw": "44414256734947966",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737776296,
+        "rawSupply": "55585743263359551",
+        "cumulativeRecordedBurnedRaw": "44414256736640449",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737784348,
+        "rawSupply": "55585743263349551",
+        "cumulativeRecordedBurnedRaw": "44414256736650449",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737940095,
+        "rawSupply": "55585743263349542",
+        "cumulativeRecordedBurnedRaw": "44414256736650458",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737940567,
+        "rawSupply": "55585743263349537",
+        "cumulativeRecordedBurnedRaw": "44414256736650463",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737959904,
+        "rawSupply": "55585743259879706",
+        "cumulativeRecordedBurnedRaw": "44414256740120294",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737960089,
+        "rawSupply": "55585743256433480",
+        "cumulativeRecordedBurnedRaw": "44414256743566520",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1737972871,
+        "rawSupply": "55585743253156055",
+        "cumulativeRecordedBurnedRaw": "44414256746843945",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738004078,
+        "rawSupply": "55585743249158885",
+        "cumulativeRecordedBurnedRaw": "44414256750841115",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738057725,
+        "rawSupply": "55585743249158785",
+        "cumulativeRecordedBurnedRaw": "44414256750841215",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738108926,
+        "rawSupply": "55585743247666513",
+        "cumulativeRecordedBurnedRaw": "44414256752333487",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738196510,
+        "rawSupply": "55585743241737244",
+        "cumulativeRecordedBurnedRaw": "44414256758262756",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738294430,
+        "rawSupply": "55585743234708807",
+        "cumulativeRecordedBurnedRaw": "44414256765291193",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738434093,
+        "rawSupply": "55585742471299632",
+        "cumulativeRecordedBurnedRaw": "44414257528700368",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738813676,
+        "rawSupply": "55585742470546917",
+        "cumulativeRecordedBurnedRaw": "44414257529453083",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738867066,
+        "rawSupply": "55585742461451155",
+        "cumulativeRecordedBurnedRaw": "44414257538548845",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738871959,
+        "rawSupply": "55585742461451076",
+        "cumulativeRecordedBurnedRaw": "44414257538548924",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738896126,
+        "rawSupply": "55585741993254436",
+        "cumulativeRecordedBurnedRaw": "44414258006745564",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1738924880,
+        "rawSupply": "55585741970951078",
+        "cumulativeRecordedBurnedRaw": "44414258029048922",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1739299920,
+        "rawSupply": "55585741413190607",
+        "cumulativeRecordedBurnedRaw": "44414258586809393",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1739637664,
+        "rawSupply": "55585741413190598",
+        "cumulativeRecordedBurnedRaw": "44414258586809402",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1739696042,
+        "rawSupply": "55585741407913932",
+        "cumulativeRecordedBurnedRaw": "44414258592086068",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1740214814,
+        "rawSupply": "55363519185913932",
+        "cumulativeRecordedBurnedRaw": "44636480814086068",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1740493150,
+        "rawSupply": "55363519180058235",
+        "cumulativeRecordedBurnedRaw": "44636480819941765",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1741573986,
+        "rawSupply": "55363517925605206",
+        "cumulativeRecordedBurnedRaw": "44636482074394794",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1741617805,
+        "rawSupply": "55363512372396633",
+        "cumulativeRecordedBurnedRaw": "44636487627603367",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1742026442,
+        "rawSupply": "55363512362114399",
+        "cumulativeRecordedBurnedRaw": "44636487637885601",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1742483315,
+        "rawSupply": "55363512087849623",
+        "cumulativeRecordedBurnedRaw": "44636487912150377",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1742546268,
+        "rawSupply": "55363512084849623",
+        "cumulativeRecordedBurnedRaw": "44636487915150377",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1742809063,
+        "rawSupply": "55363512081202991",
+        "cumulativeRecordedBurnedRaw": "44636487918797009",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1743114824,
+        "rawSupply": "55363512078004523",
+        "cumulativeRecordedBurnedRaw": "44636487921995477",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1743116808,
+        "rawSupply": "55363510641361947",
+        "cumulativeRecordedBurnedRaw": "44636489358638053",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1743156155,
+        "rawSupply": "55363510640882882",
+        "cumulativeRecordedBurnedRaw": "44636489359117118",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1743172470,
+        "rawSupply": "55363510640882881",
+        "cumulativeRecordedBurnedRaw": "44636489359117119",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1743583168,
+        "rawSupply": "55363510638876434",
+        "cumulativeRecordedBurnedRaw": "44636489361123566",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1743588316,
+        "rawSupply": "55363510638279394",
+        "cumulativeRecordedBurnedRaw": "44636489361720606",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1743717799,
+        "rawSupply": "55363510638279385",
+        "cumulativeRecordedBurnedRaw": "44636489361720615",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1744147362,
+        "rawSupply": "55363510638279384",
+        "cumulativeRecordedBurnedRaw": "44636489361720616",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1744242544,
+        "rawSupply": "55363510637578878",
+        "cumulativeRecordedBurnedRaw": "44636489362421122",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1744639074,
+        "rawSupply": "55363510637570954",
+        "cumulativeRecordedBurnedRaw": "44636489362429046",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1744639686,
+        "rawSupply": "55363510637563045",
+        "cumulativeRecordedBurnedRaw": "44636489362436955",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1744641379,
+        "rawSupply": "55363510637562261",
+        "cumulativeRecordedBurnedRaw": "44636489362437739",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1744676035,
+        "rawSupply": "55363510635908311",
+        "cumulativeRecordedBurnedRaw": "44636489364091689",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1744781222,
+        "rawSupply": "55363510429333388",
+        "cumulativeRecordedBurnedRaw": "44636489570666612",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1745268917,
+        "rawSupply": "55363510361724634",
+        "cumulativeRecordedBurnedRaw": "44636489638275366",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1745623673,
+        "rawSupply": "55363510361708940",
+        "cumulativeRecordedBurnedRaw": "44636489638291060",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1745702444,
+        "rawSupply": "55363510361252339",
+        "cumulativeRecordedBurnedRaw": "44636489638747661",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1745712443,
+        "rawSupply": "55363510359693839",
+        "cumulativeRecordedBurnedRaw": "44636489640306161",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1745875006,
+        "rawSupply": "55363510359693831",
+        "cumulativeRecordedBurnedRaw": "44636489640306169",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1745900580,
+        "rawSupply": "55363510359693827",
+        "cumulativeRecordedBurnedRaw": "44636489640306173",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1746364934,
+        "rawSupply": "55363510359592045",
+        "cumulativeRecordedBurnedRaw": "44636489640407955",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1746809275,
+        "rawSupply": "55363510357911689",
+        "cumulativeRecordedBurnedRaw": "44636489642088311",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747005667,
+        "rawSupply": "55363510357911682",
+        "cumulativeRecordedBurnedRaw": "44636489642088318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747034029,
+        "rawSupply": "55363510357911673",
+        "cumulativeRecordedBurnedRaw": "44636489642088327",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747135781,
+        "rawSupply": "55363509903559957",
+        "cumulativeRecordedBurnedRaw": "44636490096440043",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747216976,
+        "rawSupply": "55363509903559161",
+        "cumulativeRecordedBurnedRaw": "44636490096440839",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747279752,
+        "rawSupply": "55363509903559152",
+        "cumulativeRecordedBurnedRaw": "44636490096440848",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747279774,
+        "rawSupply": "55363509903559142",
+        "cumulativeRecordedBurnedRaw": "44636490096440858",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747280000,
+        "rawSupply": "55363509903559133",
+        "cumulativeRecordedBurnedRaw": "44636490096440867",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1747280430,
+        "rawSupply": "55363509903559128",
+        "cumulativeRecordedBurnedRaw": "44636490096440872",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1748928755,
+        "rawSupply": "55363509434184976",
+        "cumulativeRecordedBurnedRaw": "44636490565815024",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1749355991,
+        "rawSupply": "55363509424269514",
+        "cumulativeRecordedBurnedRaw": "44636490575730486",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1749482993,
+        "rawSupply": "55363509424269398",
+        "cumulativeRecordedBurnedRaw": "44636490575730602",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1749892591,
+        "rawSupply": "55363509424269236",
+        "cumulativeRecordedBurnedRaw": "44636490575730764",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1750139455,
+        "rawSupply": "55363509423702237",
+        "cumulativeRecordedBurnedRaw": "44636490576297763",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1750326180,
+        "rawSupply": "55363509191478871",
+        "cumulativeRecordedBurnedRaw": "44636490808521129",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1750480960,
+        "rawSupply": "55363509191478870",
+        "cumulativeRecordedBurnedRaw": "44636490808521130",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1751188568,
+        "rawSupply": "55363509191461870",
+        "cumulativeRecordedBurnedRaw": "44636490808538130",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1751188922,
+        "rawSupply": "55363509191448867",
+        "cumulativeRecordedBurnedRaw": "44636490808551133",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1751217671,
+        "rawSupply": "55363509191448828",
+        "cumulativeRecordedBurnedRaw": "44636490808551172",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1751261128,
+        "rawSupply": "55363509191448470",
+        "cumulativeRecordedBurnedRaw": "44636490808551530",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1751530943,
+        "rawSupply": "55363509191447881",
+        "cumulativeRecordedBurnedRaw": "44636490808552119",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1752151720,
+        "rawSupply": "55363509191447871",
+        "cumulativeRecordedBurnedRaw": "44636490808552129",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1752296898,
+        "rawSupply": "55363509191447866",
+        "cumulativeRecordedBurnedRaw": "44636490808552134",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1752398412,
+        "rawSupply": "55363509190823063",
+        "cumulativeRecordedBurnedRaw": "44636490809176937",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1752447164,
+        "rawSupply": "55363509188081491",
+        "cumulativeRecordedBurnedRaw": "44636490811918509",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1752612811,
+        "rawSupply": "55363509188081487",
+        "cumulativeRecordedBurnedRaw": "44636490811918513",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1752789636,
+        "rawSupply": "55363509186441135",
+        "cumulativeRecordedBurnedRaw": "44636490813558865",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753102410,
+        "rawSupply": "55363505973921133",
+        "cumulativeRecordedBurnedRaw": "44636494026078867",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753412751,
+        "rawSupply": "55363505973921123",
+        "cumulativeRecordedBurnedRaw": "44636494026078877",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753614283,
+        "rawSupply": "55363502286570189",
+        "cumulativeRecordedBurnedRaw": "44636497713429811",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753745741,
+        "rawSupply": "55363500813602077",
+        "cumulativeRecordedBurnedRaw": "44636499186397923",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753814086,
+        "rawSupply": "55363500813602074",
+        "cumulativeRecordedBurnedRaw": "44636499186397926",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753880867,
+        "rawSupply": "55363500812602074",
+        "cumulativeRecordedBurnedRaw": "44636499187397926",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753930469,
+        "rawSupply": "55363500809928965",
+        "cumulativeRecordedBurnedRaw": "44636499190071035",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753967666,
+        "rawSupply": "52363723032928965",
+        "cumulativeRecordedBurnedRaw": "47636276967071035",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753967775,
+        "rawSupply": "49363945255928965",
+        "cumulativeRecordedBurnedRaw": "50636054744071035",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753996608,
+        "rawSupply": "49363945255928959",
+        "cumulativeRecordedBurnedRaw": "50636054744071041",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1753996713,
+        "rawSupply": "49363945255928956",
+        "cumulativeRecordedBurnedRaw": "50636054744071044",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754057882,
+        "rawSupply": "49363945255928947",
+        "cumulativeRecordedBurnedRaw": "50636054744071053",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754089405,
+        "rawSupply": "49363945210239020",
+        "cumulativeRecordedBurnedRaw": "50636054789760980",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754155861,
+        "rawSupply": "49363945200668196",
+        "cumulativeRecordedBurnedRaw": "50636054799331804",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754233776,
+        "rawSupply": "49363945190345817",
+        "cumulativeRecordedBurnedRaw": "50636054809654183",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754309453,
+        "rawSupply": "49363944978109781",
+        "cumulativeRecordedBurnedRaw": "50636055021890219",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754571883,
+        "rawSupply": "49363944978109779",
+        "cumulativeRecordedBurnedRaw": "50636055021890221",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754572786,
+        "rawSupply": "49363944978109772",
+        "cumulativeRecordedBurnedRaw": "50636055021890228",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754816377,
+        "rawSupply": "49363944978109771",
+        "cumulativeRecordedBurnedRaw": "50636055021890229",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1754860562,
+        "rawSupply": "49363944978109763",
+        "cumulativeRecordedBurnedRaw": "50636055021890237",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1755468958,
+        "rawSupply": "49363944202870198",
+        "cumulativeRecordedBurnedRaw": "50636055797129802",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1755629144,
+        "rawSupply": "49363941829382693",
+        "cumulativeRecordedBurnedRaw": "50636058170617307",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1755767751,
+        "rawSupply": "49363941784751008",
+        "cumulativeRecordedBurnedRaw": "50636058215248992",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1755812234,
+        "rawSupply": "49363941763428543",
+        "cumulativeRecordedBurnedRaw": "50636058236571457",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1755861615,
+        "rawSupply": "49363941763428542",
+        "cumulativeRecordedBurnedRaw": "50636058236571458",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1755861702,
+        "rawSupply": "49363941763428536",
+        "cumulativeRecordedBurnedRaw": "50636058236571464",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1755925732,
+        "rawSupply": "49363941763428534",
+        "cumulativeRecordedBurnedRaw": "50636058236571466",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1756067485,
+        "rawSupply": "49363941763428533",
+        "cumulativeRecordedBurnedRaw": "50636058236571467",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1756215778,
+        "rawSupply": "49363936958085292",
+        "cumulativeRecordedBurnedRaw": "50636063041914708",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1756654914,
+        "rawSupply": "49363935922807370",
+        "cumulativeRecordedBurnedRaw": "50636064077192630",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1756681257,
+        "rawSupply": "49363935922807369",
+        "cumulativeRecordedBurnedRaw": "50636064077192631",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1756842677,
+        "rawSupply": "49363935922807363",
+        "cumulativeRecordedBurnedRaw": "50636064077192637",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1756852903,
+        "rawSupply": "49363935674540911",
+        "cumulativeRecordedBurnedRaw": "50636064325459089",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1757468705,
+        "rawSupply": "49363935674540906",
+        "cumulativeRecordedBurnedRaw": "50636064325459094",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758101333,
+        "rawSupply": "49363935672787229",
+        "cumulativeRecordedBurnedRaw": "50636064327212771",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758458257,
+        "rawSupply": "49363935672787228",
+        "cumulativeRecordedBurnedRaw": "50636064327212772",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758517758,
+        "rawSupply": "49363935672786295",
+        "cumulativeRecordedBurnedRaw": "50636064327213705",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758534566,
+        "rawSupply": "49363935672786291",
+        "cumulativeRecordedBurnedRaw": "50636064327213709",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758535109,
+        "rawSupply": "49363935672786289",
+        "cumulativeRecordedBurnedRaw": "50636064327213711",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758536158,
+        "rawSupply": "49363935672786285",
+        "cumulativeRecordedBurnedRaw": "50636064327213715",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758539293,
+        "rawSupply": "49363935672786278",
+        "cumulativeRecordedBurnedRaw": "50636064327213722",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758752172,
+        "rawSupply": "49363935660319851",
+        "cumulativeRecordedBurnedRaw": "50636064339680149",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1758889790,
+        "rawSupply": "49363935660319843",
+        "cumulativeRecordedBurnedRaw": "50636064339680157",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759151240,
+        "rawSupply": "49363935660319842",
+        "cumulativeRecordedBurnedRaw": "50636064339680158",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759313377,
+        "rawSupply": "49363935659969394",
+        "cumulativeRecordedBurnedRaw": "50636064340030606",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759459782,
+        "rawSupply": "49363935185320956",
+        "cumulativeRecordedBurnedRaw": "50636064814679044",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759508038,
+        "rawSupply": "49363935184881991",
+        "cumulativeRecordedBurnedRaw": "50636064815118009",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759799807,
+        "rawSupply": "49363935184881990",
+        "cumulativeRecordedBurnedRaw": "50636064815118010",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759834316,
+        "rawSupply": "49363935184881989",
+        "cumulativeRecordedBurnedRaw": "50636064815118011",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759854932,
+        "rawSupply": "49363935173745866",
+        "cumulativeRecordedBurnedRaw": "50636064826254134",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1759858994,
+        "rawSupply": "49363935173745865",
+        "cumulativeRecordedBurnedRaw": "50636064826254135",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760092457,
+        "rawSupply": "49363935173745864",
+        "cumulativeRecordedBurnedRaw": "50636064826254136",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760106399,
+        "rawSupply": "49363933152745864",
+        "cumulativeRecordedBurnedRaw": "50636066847254136",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760189533,
+        "rawSupply": "49363933152745863",
+        "cumulativeRecordedBurnedRaw": "50636066847254137",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760205421,
+        "rawSupply": "49363933152745862",
+        "cumulativeRecordedBurnedRaw": "50636066847254138",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760429227,
+        "rawSupply": "49363933152745861",
+        "cumulativeRecordedBurnedRaw": "50636066847254139",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760485013,
+        "rawSupply": "49363933152745860",
+        "cumulativeRecordedBurnedRaw": "50636066847254140",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760541314,
+        "rawSupply": "49363933152745859",
+        "cumulativeRecordedBurnedRaw": "50636066847254141",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760762060,
+        "rawSupply": "49363933152745858",
+        "cumulativeRecordedBurnedRaw": "50636066847254142",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760895027,
+        "rawSupply": "49363933152745857",
+        "cumulativeRecordedBurnedRaw": "50636066847254143",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760907271,
+        "rawSupply": "49363933152745856",
+        "cumulativeRecordedBurnedRaw": "50636066847254144",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760915176,
+        "rawSupply": "49363933152709567",
+        "cumulativeRecordedBurnedRaw": "50636066847290433",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1760989949,
+        "rawSupply": "49363933152709566",
+        "cumulativeRecordedBurnedRaw": "50636066847290434",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761018926,
+        "rawSupply": "49363932052963335",
+        "cumulativeRecordedBurnedRaw": "50636067947036665",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761137503,
+        "rawSupply": "49363932052963334",
+        "cumulativeRecordedBurnedRaw": "50636067947036666",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761182666,
+        "rawSupply": "49363930147211682",
+        "cumulativeRecordedBurnedRaw": "50636069852788318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761261028,
+        "rawSupply": "49363930147211681",
+        "cumulativeRecordedBurnedRaw": "50636069852788319",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761481346,
+        "rawSupply": "49363930147211680",
+        "cumulativeRecordedBurnedRaw": "50636069852788320",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761670774,
+        "rawSupply": "49363930021385248",
+        "cumulativeRecordedBurnedRaw": "50636069978614752",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761695749,
+        "rawSupply": "49363930009775651",
+        "cumulativeRecordedBurnedRaw": "50636069990224349",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1761996177,
+        "rawSupply": "49363928689236548",
+        "cumulativeRecordedBurnedRaw": "50636071310763452",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1762003989,
+        "rawSupply": "49363918689236548",
+        "cumulativeRecordedBurnedRaw": "50636081310763452",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1762211222,
+        "rawSupply": "49363918664762745",
+        "cumulativeRecordedBurnedRaw": "50636081335237255",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1762620030,
+        "rawSupply": "49363918537740146",
+        "cumulativeRecordedBurnedRaw": "50636081462259854",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1762868304,
+        "rawSupply": "49363918537740144",
+        "cumulativeRecordedBurnedRaw": "50636081462259856",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1762962159,
+        "rawSupply": "49363918537740143",
+        "cumulativeRecordedBurnedRaw": "50636081462259857",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763016022,
+        "rawSupply": "49363918537186683",
+        "cumulativeRecordedBurnedRaw": "50636081462813317",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763317932,
+        "rawSupply": "49363918537186682",
+        "cumulativeRecordedBurnedRaw": "50636081462813318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763342063,
+        "rawSupply": "49363918491063219",
+        "cumulativeRecordedBurnedRaw": "50636081508936781",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763351368,
+        "rawSupply": "49363918487026747",
+        "cumulativeRecordedBurnedRaw": "50636081512973253",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763352932,
+        "rawSupply": "49363918482978439",
+        "cumulativeRecordedBurnedRaw": "50636081517021561",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763353260,
+        "rawSupply": "49363918478957206",
+        "cumulativeRecordedBurnedRaw": "50636081521042794",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763354069,
+        "rawSupply": "49363918474948110",
+        "cumulativeRecordedBurnedRaw": "50636081525051890",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763360115,
+        "rawSupply": "49363918431234494",
+        "cumulativeRecordedBurnedRaw": "50636081568765506",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763361944,
+        "rawSupply": "49363918387609064",
+        "cumulativeRecordedBurnedRaw": "50636081612390936",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763363031,
+        "rawSupply": "49363918344623717",
+        "cumulativeRecordedBurnedRaw": "50636081655376283",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763389834,
+        "rawSupply": "49363918306268189",
+        "cumulativeRecordedBurnedRaw": "50636081693731811",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763390958,
+        "rawSupply": "49363918302912349",
+        "cumulativeRecordedBurnedRaw": "50636081697087651",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763391093,
+        "rawSupply": "49363918271497212",
+        "cumulativeRecordedBurnedRaw": "50636081728502788",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763392237,
+        "rawSupply": "49363918234070236",
+        "cumulativeRecordedBurnedRaw": "50636081765929764",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763394879,
+        "rawSupply": "49363918223905053",
+        "cumulativeRecordedBurnedRaw": "50636081776094947",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763404331,
+        "rawSupply": "49363918223873526",
+        "cumulativeRecordedBurnedRaw": "50636081776126474",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763404650,
+        "rawSupply": "49363918220352173",
+        "cumulativeRecordedBurnedRaw": "50636081779647827",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763407165,
+        "rawSupply": "49363918198336889",
+        "cumulativeRecordedBurnedRaw": "50636081801663111",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763425145,
+        "rawSupply": "49363918162839675",
+        "cumulativeRecordedBurnedRaw": "50636081837160325",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763426855,
+        "rawSupply": "49363918145371268",
+        "cumulativeRecordedBurnedRaw": "50636081854628732",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763427600,
+        "rawSupply": "49363918110311314",
+        "cumulativeRecordedBurnedRaw": "50636081889688686",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763437111,
+        "rawSupply": "49363918077359962",
+        "cumulativeRecordedBurnedRaw": "50636081922640038",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763438393,
+        "rawSupply": "49363918073813484",
+        "cumulativeRecordedBurnedRaw": "50636081926186516",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763439269,
+        "rawSupply": "49363918038647872",
+        "cumulativeRecordedBurnedRaw": "50636081961352128",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763440725,
+        "rawSupply": "49363918034933152",
+        "cumulativeRecordedBurnedRaw": "50636081965066848",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763440886,
+        "rawSupply": "49363917997845019",
+        "cumulativeRecordedBurnedRaw": "50636082002154981",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763441529,
+        "rawSupply": "49363917956609263",
+        "cumulativeRecordedBurnedRaw": "50636082043390737",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763441771,
+        "rawSupply": "49363917945504900",
+        "cumulativeRecordedBurnedRaw": "50636082054495100",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763442548,
+        "rawSupply": "49363917933585240",
+        "cumulativeRecordedBurnedRaw": "50636082066414760",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763443034,
+        "rawSupply": "49363917888548864",
+        "cumulativeRecordedBurnedRaw": "50636082111451136",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763446598,
+        "rawSupply": "49363917884630981",
+        "cumulativeRecordedBurnedRaw": "50636082115369019",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763448012,
+        "rawSupply": "49363917873300067",
+        "cumulativeRecordedBurnedRaw": "50636082126699933",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763458132,
+        "rawSupply": "49363917836026252",
+        "cumulativeRecordedBurnedRaw": "50636082163973748",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763459534,
+        "rawSupply": "49363917832102733",
+        "cumulativeRecordedBurnedRaw": "50636082167897267",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763460048,
+        "rawSupply": "49363917828210109",
+        "cumulativeRecordedBurnedRaw": "50636082171789891",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763460686,
+        "rawSupply": "49363917824325025",
+        "cumulativeRecordedBurnedRaw": "50636082175674975",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763476819,
+        "rawSupply": "49363917787080292",
+        "cumulativeRecordedBurnedRaw": "50636082212919708",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763486846,
+        "rawSupply": "49363917787045860",
+        "cumulativeRecordedBurnedRaw": "50636082212954140",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763505770,
+        "rawSupply": "49363917775989433",
+        "cumulativeRecordedBurnedRaw": "50636082224010567",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763507056,
+        "rawSupply": "49363917762860953",
+        "cumulativeRecordedBurnedRaw": "50636082237139047",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763510365,
+        "rawSupply": "49363917744470161",
+        "cumulativeRecordedBurnedRaw": "50636082255529839",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763511811,
+        "rawSupply": "49363917725863830",
+        "cumulativeRecordedBurnedRaw": "50636082274136170",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763514094,
+        "rawSupply": "49363917686253724",
+        "cumulativeRecordedBurnedRaw": "50636082313746276",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763534248,
+        "rawSupply": "49363917665094578",
+        "cumulativeRecordedBurnedRaw": "50636082334905422",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763535942,
+        "rawSupply": "49363917621507349",
+        "cumulativeRecordedBurnedRaw": "50636082378492651",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763537609,
+        "rawSupply": "49363917596173862",
+        "cumulativeRecordedBurnedRaw": "50636082403826138",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763538717,
+        "rawSupply": "49363917573208096",
+        "cumulativeRecordedBurnedRaw": "50636082426791904",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763541734,
+        "rawSupply": "49363917553000863",
+        "cumulativeRecordedBurnedRaw": "50636082446999137",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763542463,
+        "rawSupply": "49363917532756119",
+        "cumulativeRecordedBurnedRaw": "50636082467243881",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763544419,
+        "rawSupply": "49363917493382877",
+        "cumulativeRecordedBurnedRaw": "50636082506617123",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763545589,
+        "rawSupply": "49363917454082682",
+        "cumulativeRecordedBurnedRaw": "50636082545917318",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763547124,
+        "rawSupply": "49363917439531841",
+        "cumulativeRecordedBurnedRaw": "50636082560468159",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763547873,
+        "rawSupply": "49363917408648484",
+        "cumulativeRecordedBurnedRaw": "50636082591351516",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763549088,
+        "rawSupply": "49363917377747721",
+        "cumulativeRecordedBurnedRaw": "50636082622252279",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763549925,
+        "rawSupply": "49363917346883882",
+        "cumulativeRecordedBurnedRaw": "50636082653116118",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763550569,
+        "rawSupply": "49363917308143300",
+        "cumulativeRecordedBurnedRaw": "50636082691856700",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763550611,
+        "rawSupply": "49363917277389827",
+        "cumulativeRecordedBurnedRaw": "50636082722610173",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763551358,
+        "rawSupply": "49363917238664236",
+        "cumulativeRecordedBurnedRaw": "50636082761335764",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763552595,
+        "rawSupply": "49363917199663860",
+        "cumulativeRecordedBurnedRaw": "50636082800336140",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763553664,
+        "rawSupply": "49363917160734939",
+        "cumulativeRecordedBurnedRaw": "50636082839265061",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763555087,
+        "rawSupply": "49363917121975659",
+        "cumulativeRecordedBurnedRaw": "50636082878024341",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763562859,
+        "rawSupply": "49363917110492621",
+        "cumulativeRecordedBurnedRaw": "50636082889507379",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763563562,
+        "rawSupply": "49363917090286421",
+        "cumulativeRecordedBurnedRaw": "50636082909713579",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763579767,
+        "rawSupply": "49363916874261272",
+        "cumulativeRecordedBurnedRaw": "50636083125738728",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763631470,
+        "rawSupply": "49363916809193027",
+        "cumulativeRecordedBurnedRaw": "50636083190806973",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763633208,
+        "rawSupply": "49363916787774073",
+        "cumulativeRecordedBurnedRaw": "50636083212225927",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763635522,
+        "rawSupply": "49363916762251190",
+        "cumulativeRecordedBurnedRaw": "50636083237748810",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763637380,
+        "rawSupply": "49363916740571447",
+        "cumulativeRecordedBurnedRaw": "50636083259428553",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763639131,
+        "rawSupply": "49363916719078335",
+        "cumulativeRecordedBurnedRaw": "50636083280921665",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763648758,
+        "rawSupply": "49363916695792986",
+        "cumulativeRecordedBurnedRaw": "50636083304207014",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763688020,
+        "rawSupply": "49363916631737071",
+        "cumulativeRecordedBurnedRaw": "50636083368262929",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763690894,
+        "rawSupply": "49363916624020257",
+        "cumulativeRecordedBurnedRaw": "50636083375979743",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763696908,
+        "rawSupply": "49363916593757819",
+        "cumulativeRecordedBurnedRaw": "50636083406242181",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763699112,
+        "rawSupply": "49363916560348684",
+        "cumulativeRecordedBurnedRaw": "50636083439651316",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763705677,
+        "rawSupply": "49363916560278074",
+        "cumulativeRecordedBurnedRaw": "50636083439721926",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763722315,
+        "rawSupply": "49363916536532864",
+        "cumulativeRecordedBurnedRaw": "50636083463467136",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763724727,
+        "rawSupply": "49363916511177492",
+        "cumulativeRecordedBurnedRaw": "50636083488822508",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763773339,
+        "rawSupply": "49363916480180289",
+        "cumulativeRecordedBurnedRaw": "50636083519819711",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763776777,
+        "rawSupply": "49363916449109895",
+        "cumulativeRecordedBurnedRaw": "50636083550890105",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763796305,
+        "rawSupply": "49363916449109894",
+        "cumulativeRecordedBurnedRaw": "50636083550890106",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763967910,
+        "rawSupply": "49363916422348947",
+        "cumulativeRecordedBurnedRaw": "50636083577651053",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763971713,
+        "rawSupply": "49363916394249530",
+        "cumulativeRecordedBurnedRaw": "50636083605750470",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763978561,
+        "rawSupply": "49363916331663714",
+        "cumulativeRecordedBurnedRaw": "50636083668336286",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763981143,
+        "rawSupply": "49363916298596703",
+        "cumulativeRecordedBurnedRaw": "50636083701403297",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763982288,
+        "rawSupply": "49363916266776419",
+        "cumulativeRecordedBurnedRaw": "50636083733223581",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763994467,
+        "rawSupply": "49363916236460981",
+        "cumulativeRecordedBurnedRaw": "50636083763539019",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1763995551,
+        "rawSupply": "49363916206865633",
+        "cumulativeRecordedBurnedRaw": "50636083793134367",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764023283,
+        "rawSupply": "49363916176867076",
+        "cumulativeRecordedBurnedRaw": "50636083823132924",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764035630,
+        "rawSupply": "49363911404387966",
+        "cumulativeRecordedBurnedRaw": "50636088595612034",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764052497,
+        "rawSupply": "49363911373882122",
+        "cumulativeRecordedBurnedRaw": "50636088626117878",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764054638,
+        "rawSupply": "49363911341701179",
+        "cumulativeRecordedBurnedRaw": "50636088658298821",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764361142,
+        "rawSupply": "49363911341701171",
+        "cumulativeRecordedBurnedRaw": "50636088658298829",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764413112,
+        "rawSupply": "49363911338701171",
+        "cumulativeRecordedBurnedRaw": "50636088661298829",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764413247,
+        "rawSupply": "49363911274719862",
+        "cumulativeRecordedBurnedRaw": "50636088725280138",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1764450521,
+        "rawSupply": "49363911274362390",
+        "cumulativeRecordedBurnedRaw": "50636088725637610",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765344913,
+        "rawSupply": "49363911274362242",
+        "cumulativeRecordedBurnedRaw": "50636088725637758",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765367919,
+        "rawSupply": "49363911267518403",
+        "cumulativeRecordedBurnedRaw": "50636088732481597",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765516024,
+        "rawSupply": "49363910256911489",
+        "cumulativeRecordedBurnedRaw": "50636089743088511",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765618448,
+        "rawSupply": "49363910256911479",
+        "cumulativeRecordedBurnedRaw": "50636089743088521",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765747850,
+        "rawSupply": "49363904416026112",
+        "cumulativeRecordedBurnedRaw": "50636095583973888",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765796333,
+        "rawSupply": "49363902659620987",
+        "cumulativeRecordedBurnedRaw": "50636097340379013",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765859268,
+        "rawSupply": "49363902655297229",
+        "cumulativeRecordedBurnedRaw": "50636097344702771",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1765862777,
+        "rawSupply": "49363901407201966",
+        "cumulativeRecordedBurnedRaw": "50636098592798034",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1766288043,
+        "rawSupply": "49363901407201965",
+        "cumulativeRecordedBurnedRaw": "50636098592798035",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1766412708,
+        "rawSupply": "49363901407201957",
+        "cumulativeRecordedBurnedRaw": "50636098592798043",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767183428,
+        "rawSupply": "49363901407200127",
+        "cumulativeRecordedBurnedRaw": "50636098592799873",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767621537,
+        "rawSupply": "49363901407200125",
+        "cumulativeRecordedBurnedRaw": "50636098592799875",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767622339,
+        "rawSupply": "49363901407200116",
+        "cumulativeRecordedBurnedRaw": "50636098592799884",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767622598,
+        "rawSupply": "49363901407200109",
+        "cumulativeRecordedBurnedRaw": "50636098592799891",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767622682,
+        "rawSupply": "49363901407200100",
+        "cumulativeRecordedBurnedRaw": "50636098592799900",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767622820,
+        "rawSupply": "49363901407200093",
+        "cumulativeRecordedBurnedRaw": "50636098592799907",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767623415,
+        "rawSupply": "49363901407200091",
+        "cumulativeRecordedBurnedRaw": "50636098592799909",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767720588,
+        "rawSupply": "49363901407200086",
+        "cumulativeRecordedBurnedRaw": "50636098592799914",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767871072,
+        "rawSupply": "49363901407200085",
+        "cumulativeRecordedBurnedRaw": "50636098592799915",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767873663,
+        "rawSupply": "49363901139577470",
+        "cumulativeRecordedBurnedRaw": "50636098860422530",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767882592,
+        "rawSupply": "49363901120792941",
+        "cumulativeRecordedBurnedRaw": "50636098879207059",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767892956,
+        "rawSupply": "49363901120792940",
+        "cumulativeRecordedBurnedRaw": "50636098879207060",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767894008,
+        "rawSupply": "49363901120792939",
+        "cumulativeRecordedBurnedRaw": "50636098879207061",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767941122,
+        "rawSupply": "49363901120792938",
+        "cumulativeRecordedBurnedRaw": "50636098879207062",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767951237,
+        "rawSupply": "49363901120792937",
+        "cumulativeRecordedBurnedRaw": "50636098879207063",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767953994,
+        "rawSupply": "49363901120792936",
+        "cumulativeRecordedBurnedRaw": "50636098879207064",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1767968899,
+        "rawSupply": "49363901120792935",
+        "cumulativeRecordedBurnedRaw": "50636098879207065",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768034073,
+        "rawSupply": "49363901120362611",
+        "cumulativeRecordedBurnedRaw": "50636098879637389",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768312727,
+        "rawSupply": "49363899921433800",
+        "cumulativeRecordedBurnedRaw": "50636100078566200",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768326566,
+        "rawSupply": "49363899921433796",
+        "cumulativeRecordedBurnedRaw": "50636100078566204",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768373484,
+        "rawSupply": "49363899921433791",
+        "cumulativeRecordedBurnedRaw": "50636100078566209",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768414238,
+        "rawSupply": "49363899816637660",
+        "cumulativeRecordedBurnedRaw": "50636100183362340",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768547116,
+        "rawSupply": "49363899741457361",
+        "cumulativeRecordedBurnedRaw": "50636100258542639",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768595536,
+        "rawSupply": "49363899741457356",
+        "cumulativeRecordedBurnedRaw": "50636100258542644",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768639378,
+        "rawSupply": "49363899741457350",
+        "cumulativeRecordedBurnedRaw": "50636100258542650",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768663239,
+        "rawSupply": "49363892770690510",
+        "cumulativeRecordedBurnedRaw": "50636107229309490",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768797257,
+        "rawSupply": "49363892770690504",
+        "cumulativeRecordedBurnedRaw": "50636107229309496",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768847431,
+        "rawSupply": "49363892770690498",
+        "cumulativeRecordedBurnedRaw": "50636107229309502",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1768887101,
+        "rawSupply": "49363892770690493",
+        "cumulativeRecordedBurnedRaw": "50636107229309507",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769002012,
+        "rawSupply": "49363892770690492",
+        "cumulativeRecordedBurnedRaw": "50636107229309508",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769013213,
+        "rawSupply": "49363892770690491",
+        "cumulativeRecordedBurnedRaw": "50636107229309509",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769041429,
+        "rawSupply": "49363892770690490",
+        "cumulativeRecordedBurnedRaw": "50636107229309510",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769042798,
+        "rawSupply": "49363892766496139",
+        "cumulativeRecordedBurnedRaw": "50636107233503861",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769082029,
+        "rawSupply": "49363892766496134",
+        "cumulativeRecordedBurnedRaw": "50636107233503866",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769083433,
+        "rawSupply": "49363892766496133",
+        "cumulativeRecordedBurnedRaw": "50636107233503867",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769379000,
+        "rawSupply": "49363892766496132",
+        "cumulativeRecordedBurnedRaw": "50636107233503868",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769473776,
+        "rawSupply": "49363892766496131",
+        "cumulativeRecordedBurnedRaw": "50636107233503869",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769633319,
+        "rawSupply": "49363891462717417",
+        "cumulativeRecordedBurnedRaw": "50636108537282583",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769714747,
+        "rawSupply": "49363891462717416",
+        "cumulativeRecordedBurnedRaw": "50636108537282584",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769760911,
+        "rawSupply": "49363891399327857",
+        "cumulativeRecordedBurnedRaw": "50636108600672143",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1769884021,
+        "rawSupply": "49363891399327856",
+        "cumulativeRecordedBurnedRaw": "50636108600672144",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770018781,
+        "rawSupply": "49363891391196571",
+        "cumulativeRecordedBurnedRaw": "50636108608803429",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770107313,
+        "rawSupply": "49355126087014002",
+        "cumulativeRecordedBurnedRaw": "50644873912985998",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770109117,
+        "rawSupply": "49355126087014001",
+        "cumulativeRecordedBurnedRaw": "50644873912985999",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770266439,
+        "rawSupply": "49355126087013360",
+        "cumulativeRecordedBurnedRaw": "50644873912986640",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770267373,
+        "rawSupply": "49355126087013055",
+        "cumulativeRecordedBurnedRaw": "50644873912986945",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770269068,
+        "rawSupply": "49355126087012319",
+        "cumulativeRecordedBurnedRaw": "50644873912987681",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770331589,
+        "rawSupply": "49355126087008722",
+        "cumulativeRecordedBurnedRaw": "50644873912991278",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770335632,
+        "rawSupply": "49355126087008721",
+        "cumulativeRecordedBurnedRaw": "50644873912991279",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770360380,
+        "rawSupply": "49355126087008396",
+        "cumulativeRecordedBurnedRaw": "50644873912991604",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770776927,
+        "rawSupply": "49355126087008395",
+        "cumulativeRecordedBurnedRaw": "50644873912991605",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770813397,
+        "rawSupply": "49355126087008391",
+        "cumulativeRecordedBurnedRaw": "50644873912991609",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1770973920,
+        "rawSupply": "49355126086008391",
+        "cumulativeRecordedBurnedRaw": "50644873913991609",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1771258389,
+        "rawSupply": "49355126086008390",
+        "cumulativeRecordedBurnedRaw": "50644873913991610",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1771259041,
+        "rawSupply": "49355126086008383",
+        "cumulativeRecordedBurnedRaw": "50644873913991617",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1771517414,
+        "rawSupply": "49355126085942320",
+        "cumulativeRecordedBurnedRaw": "50644873914057680",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1772113003,
+        "rawSupply": "49355126022468010",
+        "cumulativeRecordedBurnedRaw": "50644873977531990",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1772120421,
+        "rawSupply": "49355126022468009",
+        "cumulativeRecordedBurnedRaw": "50644873977531991",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1772335957,
+        "rawSupply": "49355126022462863",
+        "cumulativeRecordedBurnedRaw": "50644873977537137",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1772341246,
+        "rawSupply": "49355126022462862",
+        "cumulativeRecordedBurnedRaw": "50644873977537138",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1772686872,
+        "rawSupply": "49355126022462861",
+        "cumulativeRecordedBurnedRaw": "50644873977537139",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1772748927,
+        "rawSupply": "49355126020234444",
+        "cumulativeRecordedBurnedRaw": "50644873979765556",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1772853717,
+        "rawSupply": "49355126020227214",
+        "cumulativeRecordedBurnedRaw": "50644873979772786",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1773178958,
+        "rawSupply": "49355125923811019",
+        "cumulativeRecordedBurnedRaw": "50644874076188981",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1773419071,
+        "rawSupply": "49355125923811018",
+        "cumulativeRecordedBurnedRaw": "50644874076188982",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1773466036,
+        "rawSupply": "49355125906728958",
+        "cumulativeRecordedBurnedRaw": "50644874093271042",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1773489666,
+        "rawSupply": "49355125758188005",
+        "cumulativeRecordedBurnedRaw": "50644874241811995",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1773900696,
+        "rawSupply": "49355125737272534",
+        "cumulativeRecordedBurnedRaw": "50644874262727466",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1773936533,
+        "rawSupply": "49355125737272524",
+        "cumulativeRecordedBurnedRaw": "50644874262727476",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1773997657,
+        "rawSupply": "49355125737272523",
+        "cumulativeRecordedBurnedRaw": "50644874262727477",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1774128194,
+        "rawSupply": "49355125737272522",
+        "cumulativeRecordedBurnedRaw": "50644874262727478",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1774320771,
+        "rawSupply": "49355125737272521",
+        "cumulativeRecordedBurnedRaw": "50644874262727479",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1774937867,
+        "rawSupply": "49355125737271726",
+        "cumulativeRecordedBurnedRaw": "50644874262728274",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1775350652,
+        "rawSupply": "49355123757404171",
+        "cumulativeRecordedBurnedRaw": "50644876242595829",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1775437375,
+        "rawSupply": "49355123756540204",
+        "cumulativeRecordedBurnedRaw": "50644876243459796",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1775478220,
+        "rawSupply": "49355120304943684",
+        "cumulativeRecordedBurnedRaw": "50644879695056316",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1775530903,
+        "rawSupply": "49355120304941809",
+        "cumulativeRecordedBurnedRaw": "50644879695058191",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1776209600,
+        "rawSupply": "49355120304941808",
+        "cumulativeRecordedBurnedRaw": "50644879695058192",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1776231027,
+        "rawSupply": "49355120304941807",
+        "cumulativeRecordedBurnedRaw": "50644879695058193",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1776269101,
+        "rawSupply": "49355120304941806",
+        "cumulativeRecordedBurnedRaw": "50644879695058194",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1777000985,
+        "rawSupply": "49355120257233738",
+        "cumulativeRecordedBurnedRaw": "50644879742766262",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1777124386,
+        "rawSupply": "49355120257232517",
+        "cumulativeRecordedBurnedRaw": "50644879742767483",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1777361085,
+        "rawSupply": "49355120169394360",
+        "cumulativeRecordedBurnedRaw": "50644879830605640",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1777707543,
+        "rawSupply": "49355120169394359",
+        "cumulativeRecordedBurnedRaw": "50644879830605641",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1777987451,
+        "rawSupply": "49355120025720750",
+        "cumulativeRecordedBurnedRaw": "50644879974279250",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1778007052,
+        "rawSupply": "49332897803720750",
+        "cumulativeRecordedBurnedRaw": "50667102196279250",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1778697646,
+        "rawSupply": "49332897801720750",
+        "cumulativeRecordedBurnedRaw": "50667102198279250",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1778920489,
+        "rawSupply": "49332897801702291",
+        "cumulativeRecordedBurnedRaw": "50667102198297709",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1778937101,
+        "rawSupply": "49332897265822118",
+        "cumulativeRecordedBurnedRaw": "50667102734177882",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1779448381,
+        "rawSupply": "49332897265822111",
+        "cumulativeRecordedBurnedRaw": "50667102734177889",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1779460461,
+        "rawSupply": "49332897265822110",
+        "cumulativeRecordedBurnedRaw": "50667102734177890",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1780155951,
+        "rawSupply": "49332897265822109",
+        "cumulativeRecordedBurnedRaw": "50667102734177891",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1780288093,
+        "rawSupply": "49332897265820679",
+        "cumulativeRecordedBurnedRaw": "50667102734179321",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1781255470,
+        "rawSupply": "49332897265820678",
+        "cumulativeRecordedBurnedRaw": "50667102734179322",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1781717626,
+        "rawSupply": "49332897262979871",
+        "cumulativeRecordedBurnedRaw": "50667102737020129",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1782643822,
+        "rawSupply": "49332897185542032",
+        "cumulativeRecordedBurnedRaw": "50667102814457968",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1783011619,
+        "rawSupply": "49332897185542030",
+        "cumulativeRecordedBurnedRaw": "50667102814457970",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1783362120,
+        "rawSupply": "49332896956163676",
+        "cumulativeRecordedBurnedRaw": "50667103043836324",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784363761,
+        "rawSupply": "49332891947781042",
+        "cumulativeRecordedBurnedRaw": "50667108052218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784448717,
+        "rawSupply": "49332891946781042",
+        "cumulativeRecordedBurnedRaw": "50667108053218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784449886,
+        "rawSupply": "49332891945781042",
+        "cumulativeRecordedBurnedRaw": "50667108054218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784451620,
+        "rawSupply": "49332891944781042",
+        "cumulativeRecordedBurnedRaw": "50667108055218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784452149,
+        "rawSupply": "49332891943781042",
+        "cumulativeRecordedBurnedRaw": "50667108056218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784453671,
+        "rawSupply": "49332891941781042",
+        "cumulativeRecordedBurnedRaw": "50667108058218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784453696,
+        "rawSupply": "49332891919781042",
+        "cumulativeRecordedBurnedRaw": "50667108080218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784454665,
+        "rawSupply": "49332791919781042",
+        "cumulativeRecordedBurnedRaw": "50667208080218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784466582,
+        "rawSupply": "49332791909781042",
+        "cumulativeRecordedBurnedRaw": "50667208090218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784466930,
+        "rawSupply": "49332769687781042",
+        "cumulativeRecordedBurnedRaw": "50667230312218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784647278,
+        "rawSupply": "49332547465781042",
+        "cumulativeRecordedBurnedRaw": "50667452534218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1784647318,
+        "rawSupply": "49332325243781042",
+        "cumulativeRecordedBurnedRaw": "50667674756218958",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1785046600,
+        "rawSupply": "49332324497168894",
+        "cumulativeRecordedBurnedRaw": "50667675502831106",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1785133003,
+        "rawSupply": "49332324497168893",
+        "cumulativeRecordedBurnedRaw": "50667675502831107",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1785156252,
+        "rawSupply": "49332324497168892",
+        "cumulativeRecordedBurnedRaw": "50667675502831108",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1785230448,
+        "rawSupply": "49332317247168892",
+        "cumulativeRecordedBurnedRaw": "50667682752831108",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1785232141,
+        "rawSupply": "49332307247168892",
+        "cumulativeRecordedBurnedRaw": "50667692752831108",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1785942327,
+        "rawSupply": "49332307247112477",
+        "cumulativeRecordedBurnedRaw": "50667692752887523",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1786150722,
+        "rawSupply": "49332307246112477",
+        "cumulativeRecordedBurnedRaw": "50667692753887523",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1786202203,
+        "rawSupply": "49332307246112455",
+        "cumulativeRecordedBurnedRaw": "50667692753887545",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1786298674,
+        "rawSupply": "49332304169268848",
+        "cumulativeRecordedBurnedRaw": "50667695830731152",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1786618497,
+        "rawSupply": "49332304169065306",
+        "cumulativeRecordedBurnedRaw": "50667695830934694",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1786770549,
+        "rawSupply": "49332304169061447",
+        "cumulativeRecordedBurnedRaw": "50667695830938553",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1786782392,
+        "rawSupply": "49332304169061446",
+        "cumulativeRecordedBurnedRaw": "50667695830938554",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1787179540,
+        "rawSupply": "49332293278223793",
+        "cumulativeRecordedBurnedRaw": "50667706721776207",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1787248857,
+        "rawSupply": "49332293277705520",
+        "cumulativeRecordedBurnedRaw": "50667706722294480",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1787361191,
+        "rawSupply": "49332071055705520",
+        "cumulativeRecordedBurnedRaw": "50667928944294480",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1787361245,
+        "rawSupply": "49331848833705520",
+        "cumulativeRecordedBurnedRaw": "50668151166294480",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1787815918,
+        "rawSupply": "49331848833705519",
+        "cumulativeRecordedBurnedRaw": "50668151166294481",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1788556518,
+        "rawSupply": "49331848763705518",
+        "cumulativeRecordedBurnedRaw": "50668151236294482",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1788811906,
+        "rawSupply": "49331848517473079",
+        "cumulativeRecordedBurnedRaw": "50668151482526921",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1789152119,
+        "rawSupply": "49331848517432825",
+        "cumulativeRecordedBurnedRaw": "50668151482567175",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1789237938,
+        "rawSupply": "49331848028224333",
+        "cumulativeRecordedBurnedRaw": "50668151971775667",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1789361291,
+        "rawSupply": "49331848027548952",
+        "cumulativeRecordedBurnedRaw": "50668151972451048",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1789428179,
+        "rawSupply": "49331848027548951",
+        "cumulativeRecordedBurnedRaw": "50668151972451049",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1789489579,
+        "rawSupply": "49331847532156475",
+        "cumulativeRecordedBurnedRaw": "50668152467843525",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1789723993,
+        "rawSupply": "49331846976646095",
+        "cumulativeRecordedBurnedRaw": "50668153023353905",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1789999396,
+        "rawSupply": "49331846414134000",
+        "cumulativeRecordedBurnedRaw": "50668153585866000",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1790057380,
+        "rawSupply": "49331624192134000",
+        "cumulativeRecordedBurnedRaw": "50668375807866000",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1790057414,
+        "rawSupply": "49331401970134000",
+        "cumulativeRecordedBurnedRaw": "50668598029866000",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1790792181,
+        "rawSupply": "49331401970133999",
+        "cumulativeRecordedBurnedRaw": "50668598029866001",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1791989953,
+        "rawSupply": "49331401970133995",
+        "cumulativeRecordedBurnedRaw": "50668598029866005",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1791991303,
+        "rawSupply": "49331401970133988",
+        "cumulativeRecordedBurnedRaw": "50668598029866012",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1791991502,
+        "rawSupply": "49331401970133982",
+        "cumulativeRecordedBurnedRaw": "50668598029866018",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1791991628,
+        "rawSupply": "49331401970133974",
+        "cumulativeRecordedBurnedRaw": "50668598029866026",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1792474067,
+        "rawSupply": "49331401970133485",
+        "cumulativeRecordedBurnedRaw": "50668598029866515",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1792561766,
+        "rawSupply": "49331401970133418",
+        "cumulativeRecordedBurnedRaw": "50668598029866582",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1792615219,
+        "rawSupply": "49331179748133418",
+        "cumulativeRecordedBurnedRaw": "50668820251866582",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1792615239,
+        "rawSupply": "49330957526133418",
+        "cumulativeRecordedBurnedRaw": "50669042473866582",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1792891388,
+        "rawSupply": "49330943877187913",
+        "cumulativeRecordedBurnedRaw": "50669056122812087",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1793419689,
+        "rawSupply": "49324669616104858",
+        "cumulativeRecordedBurnedRaw": "50675330383895142",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1793777783,
+        "rawSupply": "49324669610091713",
+        "cumulativeRecordedBurnedRaw": "50675330389908287",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1794020568,
+        "rawSupply": "49323709640700811",
+        "cumulativeRecordedBurnedRaw": "50676290359299189",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1794173319,
+        "rawSupply": "49323704886105558",
+        "cumulativeRecordedBurnedRaw": "50676295113894442",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1794624473,
+        "rawSupply": "49322736219208890",
+        "cumulativeRecordedBurnedRaw": "50677263780791110",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      },
+      {
+        "blockTime": 1795326957,
+        "rawSupply": "49321863777836069",
+        "cumulativeRecordedBurnedRaw": "50678136222163931",
+        "sourceEventCount": 1,
+        "basis": "recorded-burns"
+      }
+    ],
+    "reconciliation": {
+      "status": "matched",
+      "supplyObservedAt": "2026-11-22T20:02:47.082862+00:00",
+      "supplyAsOfSlot": 472667659,
+      "expectedCurrentSupplyRaw": "49321863777836069",
+      "reconstructedLastSupplyRaw": "49321863777836069",
+      "matchesCurrentSupply": true
+    }
+  },
+  "generatedAt": "2026-11-22T20:10:49.248487+00:00",
   "updateResults": {
     "supply": {
       "status": "success",
-      "attemptedAt": "2026-11-22T05:32:06.029017+00:00",
+      "attemptedAt": "2026-11-22T20:02:45.451362+00:00",
       "processedSignatures": 0,
       "errorCode": null,
-      "lastSuccessfulAt": "2026-11-22T05:32:06.029017+00:00"
+      "lastSuccessfulAt": "2026-11-22T20:02:45.451362+00:00"
     },
     "history": {
       "status": "partial",
-      "attemptedAt": "2026-11-22T05:32:07.853653+00:00",
-      "processedSignatures": 390,
+      "attemptedAt": "2026-11-22T20:02:47.166856+00:00",
+      "processedSignatures": 523,
       "errorCode": "budget",
       "lastSuccessfulAt": null
     }
@@ -20,25 +3442,25 @@
     "method": "fixed-mint-minus-current-supply",
     "dataStatus": "verified",
     "totalMintedRaw": "100000000000000000",
-    "currentSupplyRaw": "49322736219208890",
-    "burnedRaw": "50677263780791110",
-    "asOfSlot": 472424650,
-    "observedAt": "2026-11-22T05:32:07.764585+00:00",
+    "currentSupplyRaw": "49321863777836069",
+    "burnedRaw": "50678136222163931",
+    "asOfSlot": 472667659,
+    "observedAt": "2026-11-22T20:02:47.082862+00:00",
     "issuanceBasis": "user-confirmed-solscan-single-mint-and-revoked-mint-authority",
     "issuanceConfirmedDate": "2026-11-22"
   },
   "historyReconciliation": {
-    "recordedBurnedRaw": "50677263780791110",
-    "historyThroughSlot": 470185158,
-    "historyUpdatedAt": "2026-11-22T05:40:09.937753+00:00",
+    "recordedBurnedRaw": "50678136222163931",
+    "historyThroughSlot": 470601251,
+    "historyUpdatedAt": "2026-11-22T20:10:49.120010+00:00",
     "completeHistoryProven": false,
     "status": "matched",
-    "asOfSlot": 472424650,
-    "expectedBurnedRaw": "50677263780791110",
+    "asOfSlot": 472667659,
+    "expectedBurnedRaw": "50678136222163931",
     "differenceRaw": "0"
   },
   "schemaVersion": 1,
-  "lastUpdated": "2026-11-22T05:32:07.764585+00:00",
+  "lastUpdated": "2026-11-22T20:02:47.082862+00:00",
   "mint": "FpECzw6x8RG4VBXfnVg3UJd8pq9CCxJUSWCKb4gebq8B",
   "decimals": 6,
   "token": {
@@ -48,11 +3470,11 @@
     "initialized": true,
     "mintAuthority": null,
     "freezeAuthority": null,
-    "rawSupply": "49322736219208890",
-    "supplySlot": 472424650,
-    "accountSlot": 472424650,
-    "blockTime": 1795325524,
-    "observedAt": "2026-11-22T05:32:07.764585+00:00",
+    "rawSupply": "49321863777836069",
+    "supplySlot": 472667659,
+    "accountSlot": 472667659,
+    "blockTime": 1795377764,
+    "observedAt": "2026-11-22T20:02:47.082862+00:00",
     "dataSource": "Solana finalized RPC getAccountInfo",
     "name": "NYANMARU COIN",
     "symbol": "NYAN",
@@ -67,11 +3489,11 @@
     "Solana finalized RPC"
   ],
   "historyFrom": 1733263651,
-  "historyThrough": 1794173319,
+  "historyThrough": 1795326957,
   "completeness": {
     "status": "csv-baseline-and-prospective-monitoring",
-    "csvRows": 482,
-    "csvRpcVerifiedRows": 482,
+    "csvRows": 484,
+    "csvRpcVerifiedRows": 484,
     "allHistoryEnumerated": false,
     "monitoring": {
       "afterSlot": 469140039,
@@ -79,7 +3501,7 @@
       "initializedAt": "2026-11-14T01:15:09.729165+00:00",
       "completeness": "prospective-contiguous-only"
     },
-    "monitoringThroughSlot": 470185158
+    "monitoringThroughSlot": 470601251
   },
   "burns": [
     {
@@ -9740,10 +13162,30 @@
       "status": "finalized-success",
       "explorerUrl": "https://solscan.io/tx/5ffGBfp5AzSJoXJZWK2hXfEKsETUHXFmCatG9mM9z5ReeC9BZQcb29HWkEdMc7Mma3uFgZPzJfY543LyWAvdYxwP",
       "verification": "rpc-instruction",
-      "dataSource": "Solana finalized RPC"
+      "dataSource": "Solscan CSV + finalized RPC"
+    },
+    {
+      "id": "EuGLVhFj4LJ9dooFG6fNA2Q2fWx4ZR8LwoSTS8f4DGr5fmC23MaikjNss2hGA72RFNXPDXp3x7HUCt8XZse8x8K:2:top",
+      "signature": "EuGLVhFj4LJ9dooFG6fNA2Q2fWx4ZR8LwoSTS8f4DGr5fmC23MaikjNss2hGA72RFNXPDXp3x7HUCt8XZse8x8K",
+      "slot": 472431293,
+      "blockTime": 1795326957,
+      "mint": "FpECzw6x8RG4VBXfnVg3UJd8pq9CCxJUSWCKb4gebq8B",
+      "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "sourceTokenAccount": "675gXfVVxC3THiL9iqXmCcG5deS2GGCp2VQ9fMddR1HA",
+      "destinationTokenAccount": null,
+      "authority": "CSjHwEKqFVsdVVYD67ugZycn9Ktetrr1bFUwfKt7faN3",
+      "instructionType": "burnChecked",
+      "outerInstructionIndex": 2,
+      "innerInstructionIndex": null,
+      "rawAmount": "872441372821",
+      "decimals": 6,
+      "status": "finalized-success",
+      "explorerUrl": "https://solscan.io/tx/EuGLVhFj4LJ9dooFG6fNA2Q2fWx4ZR8LwoSTS8f4DGr5fmC23MaikjNss2hGA72RFNXPDXp3x7HUCt8XZse8x8K",
+      "verification": "rpc-instruction",
+      "dataSource": "Solscan CSV + finalized RPC"
     }
   ],
-  "totalRawBurned": "50677263780791110",
+  "totalRawBurned": "50678136222163931",
   "supplyHistory": [
     {
       "utcDate": "2026-11-14",
@@ -9754,11 +13196,11 @@
     },
     {
       "utcDate": "2026-11-22",
-      "rawSupply": "49322736219208890",
-      "supplySlot": 472424650,
-      "blockTime": 1795325524,
-      "observedAt": "2026-11-22T05:32:07.764585+00:00"
+      "rawSupply": "49321863777836069",
+      "supplySlot": 472667659,
+      "blockTime": 1795377764,
+      "observedAt": "2026-11-22T20:02:47.082862+00:00"
     }
   ],
-  "checkpointUpdatedAt": "2026-11-22T05:40:09.937753+00:00"
+  "checkpointUpdatedAt": "2026-11-22T20:10:49.120010+00:00"
 }
