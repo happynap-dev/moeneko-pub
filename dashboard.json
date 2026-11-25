@@ -3421,28 +3421,28 @@
     ],
     "reconciliation": {
       "status": "matched",
-      "supplyObservedAt": "2026-11-25T04:55:10.985939+00:00",
-      "supplyAsOfSlot": 473619859,
+      "supplyObservedAt": "2026-11-25T19:57:51.507847+00:00",
+      "supplyAsOfSlot": 473871753,
       "expectedCurrentSupplyRaw": "49321641555616069",
       "reconstructedLastSupplyRaw": "49321641555616069",
       "matchesCurrentSupply": true
     }
   },
-  "generatedAt": "2026-11-25T04:55:20.970520+00:00",
+  "generatedAt": "2026-11-25T19:58:16.142084+00:00",
   "updateResults": {
     "supply": {
       "status": "success",
-      "attemptedAt": "2026-11-25T04:55:09.224247+00:00",
+      "attemptedAt": "2026-11-25T19:57:49.817106+00:00",
       "processedSignatures": 0,
       "errorCode": null,
-      "lastSuccessfulAt": "2026-11-25T04:55:09.224247+00:00"
+      "lastSuccessfulAt": "2026-11-25T19:57:49.817106+00:00"
     },
     "history": {
       "status": "success",
-      "attemptedAt": "2026-11-25T04:55:11.069226+00:00",
-      "processedSignatures": 7,
+      "attemptedAt": "2026-11-25T19:57:51.590321+00:00",
+      "processedSignatures": 15,
       "errorCode": null,
-      "lastSuccessfulAt": "2026-11-25T04:55:11.069226+00:00"
+      "lastSuccessfulAt": "2026-11-25T19:57:51.590321+00:00"
     }
   },
   "supplyBreakdown": {
@@ -3451,23 +3451,23 @@
     "totalMintedRaw": "100000000000000000",
     "currentSupplyRaw": "49321641555616069",
     "burnedRaw": "50678358444383931",
-    "asOfSlot": 473619859,
-    "observedAt": "2026-11-25T04:55:10.985939+00:00",
+    "asOfSlot": 473871753,
+    "observedAt": "2026-11-25T19:57:51.507847+00:00",
     "issuanceBasis": "user-confirmed-solscan-single-mint-and-revoked-mint-authority",
     "issuanceConfirmedDate": "2026-11-22"
   },
   "historyReconciliation": {
     "recordedBurnedRaw": "50678358444383931",
-    "historyThroughSlot": 473619859,
-    "historyUpdatedAt": "2026-11-25T04:55:20.847936+00:00",
+    "historyThroughSlot": 473871753,
+    "historyUpdatedAt": "2026-11-25T19:58:16.004443+00:00",
     "completeHistoryProven": false,
     "status": "matched",
-    "asOfSlot": 473619859,
+    "asOfSlot": 473871753,
     "expectedBurnedRaw": "50678358444383931",
     "differenceRaw": "0"
   },
   "schemaVersion": 1,
-  "lastUpdated": "2026-11-25T04:55:10.985939+00:00",
+  "lastUpdated": "2026-11-25T19:57:51.507847+00:00",
   "mint": "FpECzw6x8RG4VBXfnVg3UJd8pq9CCxJUSWCKb4gebq8B",
   "decimals": 6,
   "token": {
@@ -3478,10 +3478,10 @@
     "mintAuthority": null,
     "freezeAuthority": null,
     "rawSupply": "49321641555616069",
-    "supplySlot": 473619859,
-    "accountSlot": 473619859,
-    "blockTime": 1795582508,
-    "observedAt": "2026-11-25T04:55:10.985939+00:00",
+    "supplySlot": 473871753,
+    "accountSlot": 473871753,
+    "blockTime": 1795636669,
+    "observedAt": "2026-11-25T19:57:51.507847+00:00",
     "dataSource": "Solana finalized RPC getAccountInfo",
     "name": "NYANMARU COIN",
     "symbol": "NYAN",
@@ -3508,7 +3508,7 @@
       "initializedAt": "2026-11-14T01:15:09.729165+00:00",
       "completeness": "prospective-contiguous-only"
     },
-    "monitoringThroughSlot": 473619859
+    "monitoringThroughSlot": 473871753
   },
   "burns": [
     {
@@ -13245,10 +13245,10 @@
     {
       "utcDate": "2026-11-25",
       "rawSupply": "49321641555616069",
-      "supplySlot": 473619859,
-      "blockTime": 1795582508,
-      "observedAt": "2026-11-25T04:55:10.985939+00:00"
+      "supplySlot": 473871753,
+      "blockTime": 1795636669,
+      "observedAt": "2026-11-25T19:57:51.507847+00:00"
     }
   ],
-  "checkpointUpdatedAt": "2026-11-25T04:55:20.847936+00:00"
+  "checkpointUpdatedAt": "2026-11-25T19:58:16.004443+00:00"
 }
